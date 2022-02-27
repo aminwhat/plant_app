@@ -45,9 +45,10 @@ class HeaderWithSearchBox extends StatelessWidget {
             ),
           ),
           Positioned(
-            bottom: 0,
             left: 0,
             right: 0,
+            bottom: 50,
+            /** bottom was 0, I changed that myself. */
             child: Container(
               alignment: Alignment.center,
               margin: EdgeInsets.symmetric(horizontal: kDefaultPadding),
