@@ -1,9 +1,9 @@
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     package="com.example.plant_app">
    <application
-        android:label="plant_app"
+        android:label="Plant"
         android:name="${applicationName}"
-        android:icon="@mipmap/ic_launcher">
+        android:icon="@mipmap/app_logo">
         <activity
             android:name=".MainActivity"
             android:exported="true"

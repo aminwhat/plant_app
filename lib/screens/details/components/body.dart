@@ -39,17 +39,21 @@ class Body extends StatelessWidget {
                   ),
                 ),
               ),
-              Expanded(
+              SizedBox(
+                height: 84,
+                width: size.width / 2,
                 child: FlatButton(
+                  shape: RoundedRectangleBorder(
+                    borderRadius: BorderRadius.only(
+                      topLeft: Radius.circular(20),
+                    ),
+                  ),
                   onPressed: () {},
                   child: Text('Description'),
                 ),
               ),
             ],
           ),
-          /*SizedBox(
-            height: kDefaultPadding * 2,
-          ),*/
         ],
       ),
     );
